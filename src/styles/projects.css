@@ -1,0 +1,39 @@
+.projects{
+    width: 100%;
+    height: auto;
+    margin-top: 0%; 
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(231, 231, 231);
+    font-weight: 100;
+    color: black;
+    
+}
+.projects .title{
+    color:rgb(240, 116, 0);
+    font-size: 10vh;
+    height: 60%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: inherit; 
+    font-family: cursive;
+    font-weight: 100;
+    padding-left: 15%;
+    padding-top: 10%;
+    
+}
+.aboutBottom{
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 0%;
+    height: 50vh;
+   
+}
+.projectContents{
+    margin-top: 0%;
+    height: 60vh;
+   padding: 10%;
+   justify-content: center;
+   align-items: center;
+
+}

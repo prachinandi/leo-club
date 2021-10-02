@@ -1,0 +1,105 @@
+.about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(231, 231, 231);
+  font-weight: 100;
+  
+}
+.head{
+  font-weight: 400;
+  font-size: 50px;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+  font-family: cursive;
+  padding-top: 6%;
+}
+.aboutBottom .p1 {
+  padding-left: 15%;
+  width: 30%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  color: rgb(124, 121, 121);
+  flex-direction: row;
+}
+.aboutTop {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: row;
+  height: 55%;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+.leftSide{
+  content: "";
+  display: table;
+  clear: both;
+  width: auto;
+
+}
+
+.aboutBottom p {
+  
+  width: 40%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  color: rgb(124, 121, 121);
+  
+  
+}
+
+
+.about .aboutBottom h2{
+  margin-left: 20%;
+  padding-top: 3%;
+  font-size: 35px;
+  font-family: cursive;
+}
+.about .new{
+  height: 270px;
+  width: 500px;
+  margin-top: 0%;
+  margin-left: 10%;
+  border-radius: 15px;
+  box-shadow:  rgb(240, 116, 0) 10px 10px ;
+  border-width: 5px;
+  border-color: black;
+ 
+}
+.imgcard{
+    flex-direction: row;
+    float: right;
+    
+}
+.about .vision{
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  align-items: center;
+  margin-top: 50px;
+}
+.Ovison{
+  font-family: cursive;
+}
+.vision p {
+  padding-left: 20%;
+  width: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  color: rgb(124, 121, 121);
+  flex-direction: row;
+  
+}

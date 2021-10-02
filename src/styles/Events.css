@@ -1,0 +1,43 @@
+.event{
+    width: 100%;
+    height: auto;
+    margin-top: 0%; 
+    display: flex;
+    flex-direction: column;
+    color:  rgb(231, 231, 231);
+    font-weight: 100;
+    background-color: black;
+}
+.eventimage{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.event .title{
+    color:rgb(240, 116, 0);
+    font-size: 10vh;
+    height: 60vh;
+    padding-left: 15%;
+    margin-top: 0%;
+    padding-top: 10%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: inherit; 
+    font-family: cursive;
+    font-weight: 100;
+    margin-right: 0%;
+    
+   
+    
+    
+}
+.eventsContents{
+   justify-content: center;
+   align-items: center;
+   padding: 10%;
+   font-size: 20px; 
+   height: 60vh;
+
+}
