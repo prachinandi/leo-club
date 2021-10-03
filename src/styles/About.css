@@ -74,7 +74,7 @@
   margin-top: 0%;
   margin-left: 10%;
   border-radius: 15px;
-  box-shadow:  rgb(240, 116, 0) 10px 10px ;
+  box-shadow:  rgb(77, 76, 76) 3px 3px 50px;
   border-width: 5px;
   border-color: black;
  
@@ -93,6 +93,7 @@
 }
 .Ovison{
   font-family: cursive;
+  color: rgb(240, 116, 0);
 }
 .vision p {
   padding-left: 20%;
@@ -102,4 +103,9 @@
   color: rgb(124, 121, 121);
   flex-direction: row;
   
+}
+.videoAbout{
+  align-self: center;
+  box-shadow:  rgb(77, 76, 76) 3px 3px 50px;
+  margin: 5%;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-
+import ReactPlayer from "react-player"
 import abt from "../assets/pic4.jpeg";
 
 function About() {
@@ -46,6 +46,10 @@ function About() {
           officiis modi at sunt excepturi expe
         </p>
       </div> 
+      <div className="videoAbout">
+      <ReactPlayer
+        url="https://www.youtube.com/watch?v=n_QzZeAAWWo"/>
+      </div>
     </div>
   );
 }

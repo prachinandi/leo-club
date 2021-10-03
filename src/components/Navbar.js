@@ -19,8 +19,8 @@ function Navbar() {
       <div className="rightSide">
         <Link to="/"> Home </Link>
         <Link to="/about"> About </Link>
-        <Link to="/"> Events </Link>
-        <Link to="/"> Projects </Link>
+        <Link to="/event"> Events </Link>
+        <Link to="/projects"> Projects </Link>
         <Link to="/"> Team </Link>
         <Link to="/"> Contact </Link>
         <button onClick={toggleNavbar}>
