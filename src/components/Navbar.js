@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
-        <img src={Logo} />
+        <img src={Logo} alt="leoLogo" />
         <div className="logoName">LEO CLUB NITR</div>
       </div>
       <div className="rightSide">

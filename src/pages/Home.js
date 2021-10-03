@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import main from "../assets/home.jpg";
 import "../styles/Home.css";
 import About from "./About";
