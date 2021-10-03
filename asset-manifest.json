@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Leo-club/static/css/main.7d629007.chunk.css",
+    "main.js": "/Leo-club/static/js/main.38e05e3f.chunk.js",
+    "main.js.map": "/Leo-club/static/js/main.38e05e3f.chunk.js.map",
+    "runtime-main.js": "/Leo-club/static/js/runtime-main.444fa5bf.js",
+    "runtime-main.js.map": "/Leo-club/static/js/runtime-main.444fa5bf.js.map",
+    "static/js/2.58692e16.chunk.js": "/Leo-club/static/js/2.58692e16.chunk.js",
+    "static/js/2.58692e16.chunk.js.map": "/Leo-club/static/js/2.58692e16.chunk.js.map",
+    "static/js/3.f74967d8.chunk.js": "/Leo-club/static/js/3.f74967d8.chunk.js",
+    "static/js/3.f74967d8.chunk.js.map": "/Leo-club/static/js/3.f74967d8.chunk.js.map",
+    "index.html": "/Leo-club/index.html",
+    "static/css/main.7d629007.chunk.css.map": "/Leo-club/static/css/main.7d629007.chunk.css.map",
+    "static/js/2.58692e16.chunk.js.LICENSE.txt": "/Leo-club/static/js/2.58692e16.chunk.js.LICENSE.txt",
+    "static/media/Leo.fc5334c0.jfif": "/Leo-club/static/media/Leo.fc5334c0.jfif",
+    "static/media/event.e6aa6bd0.jpg": "/Leo-club/static/media/event.e6aa6bd0.jpg",
+    "static/media/home.14c705d1.jpg": "/Leo-club/static/media/home.14c705d1.jpg",
+    "static/media/pic4.fba6c827.jpeg": "/Leo-club/static/media/pic4.fba6c827.jpeg",
+    "static/media/projects.bb92912a.jpg": "/Leo-club/static/media/projects.bb92912a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.444fa5bf.js",
+    "static/js/2.58692e16.chunk.js",
+    "static/css/main.7d629007.chunk.css",
+    "static/js/main.38e05e3f.chunk.js"
+  ]
+}
