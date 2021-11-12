@@ -19,16 +19,16 @@ function Home() {
       
       <div className="headerContainer">
         <h1> LEO Club </h1>
-        <h2>'Social Body of NIT Rourkela'</h2>
+       
+        <h3> ----------- Social Body of NIT Rourkela</h3>
         <div className="socialMedia">
-        <InstagramIcon/> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
+       <InstagramIcon/> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
       </div>
              
       </div>   
       </div>
       <About/>
-      <Eve/>
-      <Projects/>
+      
       </div>
   );
  

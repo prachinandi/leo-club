@@ -3,27 +3,30 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(255, 255, 255);
   font-weight: 100;
-  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .head{
-  font-weight: 400;
-  font-size: 50px;
+  
+  font-size: 60px;
   color: black;
   height: 30px;
   display: flex;
   justify-content: center;
   transform: translateY(-40px);
-  font-family: cursive;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
   padding-top: 6%;
 }
 .aboutBottom .p1 {
   padding-left: 15%;
-  width: 30%;
+  width: 70%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: larger;
-  color: rgb(124, 121, 121);
+  font-size: 25px;
+  color: rgb(44, 44, 44);
   flex-direction: row;
 }
 .aboutTop {
@@ -36,11 +39,10 @@
 }
 
 .aboutBottom {
-  display: flex;
-  flex-direction: row;
-  height: 55%;
+  
+ 
   align-items: center;
-  margin-top: 50px;
+  padding-top: 0%;
   
 }
 .leftSide{
@@ -52,11 +54,11 @@
 }
 
 .aboutBottom p {
-  
+  height: auto;
   width: 40%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: larger;
-  color: rgb(124, 121, 121);
+  font-size: 20px;
+  color: rgb(0, 0, 0);
   
   
 }
@@ -68,40 +70,28 @@
   font-size: 35px;
   font-family: cursive;
 }
-.about .new{
-  height: 270px;
-  width: 500px;
-  margin-top: 0%;
-  margin-left: 10%;
-  border-radius: 15px;
-  box-shadow:  rgb(77, 76, 76) 3px 3px 50px;
-  border-width: 5px;
-  border-color: black;
- 
-}
-.imgcard{
-    flex-direction: row;
-    float: right;
-    
-}
+
+
 .about .vision{
   display: flex;
   flex-direction: column;
-  height: 55%;
+  height: auto;
   align-items: center;
   margin-top: 50px;
 }
 .Ovison{
-  font-family: cursive;
-  color: rgb(240, 116, 0);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(252, 0, 55);
+  font-size: 50px;
+  font-weight: 100;
 }
 .vision p {
-  padding-left: 20%;
-  width: 50%;
+  
+  width: 70%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: larger;
-  color: rgb(124, 121, 121);
-  flex-direction: row;
+  font-size: 25px;
+  color: rgb(44, 44, 44);
+  
   
 }
 .videoAbout{

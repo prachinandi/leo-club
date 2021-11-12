@@ -1,49 +1,48 @@
 import React from "react";
 import "../styles/About.css";
 import ReactPlayer from "react-player"
-import abt from "../assets/pic4.jpeg";
+import AbBg from "../assets/Aboutbg.jpg";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" style={{ backgroundImage: `url(${AbBg})`}}>
        <h1 className="head"> ABOUT US</h1>  
          <div className="aboutBottom">
        
        <p className="p1">
              
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-          accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-          molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-          officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-          nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-          error repudiandae fuga? Ipsa laudantium molestias eos sapiente
-          officiis modi at sunt excepturi expedita sint? Sed quibusdam
-          recusandae alias error harum maxime adipisci amet laborum.
-          
+       Leo Club of NIT Rourkela is a coterie that engages in social work in Rourkela. It is one of the oldest and most active clubs of the institution.
+       We are a group of enthusiastic socially inclined students who felt the need for a body, which provides opportunities to the students of NIT Rourkela who wish to work for a better society.   
+       We have undertaken numerous projects which is inclined towards social good. Our flagship being campaigns, we also conduct year long events like conferences, donation drives, exhibitions and social awareness among people.
+       
         </p>
-        <div className="imgcard">
-          <img className="new" src={abt} alt="leo NITR"/>
-        </div>
+        
       </div>
         
        
      <div className="vision">
         <h1 className="Ovison"> OUR VISION</h1>
         
-        <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-          accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-          molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-          officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-          nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-          error repudiandae fuga? Ipsa laudantium molestias eos sapiente
-          officiis modi at sunt excepturi expe
+        <p> <b> L : Leadership </b>
+         <br/> Among each one involved,
+A feeling of courage to interact with those that the world terms as 'anti-socials',
+A sense of empowerment, because you can ease someone's pain,
+The power to educate the backward,
+And to be an instrument of change.
+<br/>
+<b> E : Experience </b>
+<br/>
+The lives of mothers dejected by sons and daughters,
+The lives of children left behind by parent,
+The lives of those who are hundred steps behind the rest of the world,
+Ans a humility that comes only with being associated with this part of the society.
+<br/>
+<b> O : Opportunity </b>
+<br/>
+To light a candle in thousand deprived hearts,
+To steady a shivery hand and shaky feet,
+To upturn a sad face into a smile,
+To grow and help grow.
         </p>
       </div> 
       <div className="videoAbout">

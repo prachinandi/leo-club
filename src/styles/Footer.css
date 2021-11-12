@@ -67,7 +67,7 @@
 }
 .getT{
   color: rgb(240, 116, 0);
-  font-size: 30px;
+  font-size: 20px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
 }
@@ -78,7 +78,7 @@
 .endFoot{
   height: 60px;
   width: 100%;
-  background-color: rgb(240, 116, 0);
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;

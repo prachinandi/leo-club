@@ -20,7 +20,7 @@
   width: 100%;
   padding-top: 18%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   opacity: inherit; 
   align-items: center;
 }
@@ -36,15 +36,22 @@
 
 }
 .headerContainer h2{
-  font-size: 25px;
+  font-size: 23px;
   margin-left: 12%;
   color: rgb(255, 255, 255);
   font-weight: 50;
-  font-family: cursive;
-  color: rgb(240, 116, 0);
-  
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 45%;
   }
-
+  .headerContainer h3{
+    font-size: 20px;
+    margin-left: 12%;
+    color: rgb(240, 116, 0);
+    font-weight: 50;
+    font-family: cursive;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
+  
 
 
 

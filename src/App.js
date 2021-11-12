@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Event from "./pages/Events";
 import Projects from "./pages/projects";
 import Footer from "./components/Footer";
+import Gallary from "./pages/gallary";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/event" exact component={Event} />
           <Route path="/projects" exact component={Projects} />
+          <Route path="/gallary" exact component={Gallary} />
         </Switch>
           
         <Footer />

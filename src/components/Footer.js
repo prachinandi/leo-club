@@ -37,7 +37,7 @@ function Footer() {
      
       </div>  
     <div className="footer"> 
-      <h2 className="getT"> Get in Touch! || Join Us || Donate</h2>
+      <h2 className="getT"> ...........Get in Touch! || Join Us || Donate........</h2>
       <div className="socialMedia">
       <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
       </div>
